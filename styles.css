@@ -1,0 +1,57 @@
+/* GAME SETTING USING CUSTOMS INPUT STYLING */
+.body{
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 2px solid red;
+
+}
+.feature-card-container{
+  border: 2px solid blue;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.feature-card{
+ border: 2px solid lightgray;
+ border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  
+  padding: 10px 15px;
+
+}
+.feature-card:hover{
+  box-shadow: 1px 1px 3px 3px gold;
+}
+label h4{
+  margin: 0;
+}
+input[type='checkbox']{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+   vertical-align: middle;
+  background-color: white;
+  transition:all 0.3s ease;
+border: 2px solid lightgray;
+  appearance: none;
+  cursor: pointer;
+}
+
+input[type='checkbox']:checked{
+  background-color: gold;
+  border-color:gold;
+}
+
+input[type='checkbox']:checked::after{
+  content: "✓";
+  display: block;
+  text-align : center;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
