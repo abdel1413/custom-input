@@ -69,10 +69,12 @@ margin-top: 20px;
   width: 250px;
   height: 330px;
   background-color: #FFFFFF;
-  border: 1px solid lightgray;
+  border: 1px solid black;
   display: flex;
 justify-content:space-between;
 padding: 10px;
+border-radius: 10px;
+box-shadow: 2px 8px 5px lightgray ;
 }
 
 .left{
@@ -102,4 +104,7 @@ padding: 10px;
 .red{color: red;}
 .pairs{
     display: flex;
+}
+.centered{
+    text-align: center;
 }
