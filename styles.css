@@ -3,8 +3,7 @@
     height: 100vh;
     background-color: #f0f0f0;
     text-align: center;
-    border: 2px solid red;
-
+    border: 2px solid red;      
 }
 .feature-card-container{
   border: 2px solid blue;
@@ -14,6 +13,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 .feature-card{
  border: 2px solid lightgray;
  border-radius: 10px;
@@ -55,3 +55,34 @@ input[type='checkbox']:checked::after{
   border-radius: 5px;
 }
 
+/* Pay Card */
+
+#playing-cards{
+margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 2px 
+}
+.card{
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+justify-content:space-between;
+}
+
+.left{
+  align-self: flex-start;
+  border: 2px solid red;
+}
+.middle{
+  display:flex;
+  align-self: center;
+  flex-direction:column;
+}
+.right{
+  align-self:flex-end;
+}
