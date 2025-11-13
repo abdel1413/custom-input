@@ -63,7 +63,8 @@ margin-top: 20px;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  border: 2px 
+  border: 2px ;
+  background-color: azure;
 }
 .card{
   width: 250px;
@@ -75,6 +76,12 @@ justify-content:space-between;
 padding: 10px;
 border-radius: 10px;
 box-shadow: 2px 8px 5px lightgray ;
+cursor: pointer;
+transition: all 0.2s ease
+}
+
+.card:hover{
+    transform: rotate(5deg);
 }
 
 .left{
