@@ -121,6 +121,46 @@ transition: all 0.2s ease
 
 .top-secret-container{
     border: 2px solid blue;
+   background-color: #FFF5EE;
     padding: 20px;
-    
+    margin: 20px auto;
+
 }
+
+#email{
+  padding: 50px;
+  margin:50px  auto;
+  width: 500px;
+  border: 2px;
+
+  box-sizing:border-box;
+  border: 2px solid green;
+  box-shadow:2px 3px 1px black 
+}
+
+#top-secret{
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5px;
+  border: 2px solid red;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50;
+  left: 8;
+}
+#confidential{
+
+  display: inline-block;
+  margin-left: 5px;
+  border:2px solid red;
+  padding: 10px;
+  transform: rotate(-45deg)
+
+}
+
+.blurred{
+
+  filter:blur(3px);
+}
+
+
