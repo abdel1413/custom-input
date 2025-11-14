@@ -147,10 +147,10 @@ transition: all 0.2s ease
   position: absolute;
   top: 50;
   left: 8;
+  display: inline-block;
 }
 #confidential{
-
-  display: inline-block;
+  
   margin-left: 5px;
   border:2px solid red;
   padding: 10px;
