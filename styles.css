@@ -115,3 +115,12 @@ transition: all 0.2s ease
 .centered{
     text-align: center;
 }
+
+
+/* TOP SECRET EMAIL */
+
+.top-secret-container{
+    border: 2px solid blue;
+    padding: 20px;
+    
+}
